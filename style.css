@@ -220,7 +220,7 @@ footer {
   background: #1b5e20;
 }
 
-.zz {
+.zz, #recoveredCard {
   max-height: 60vh;
   overflow-y: auto;
 }
@@ -328,4 +328,5 @@ footer {
 
 .dev-yr {
   font-size: 0.9rem;
+
 }
