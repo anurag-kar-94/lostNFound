@@ -56,8 +56,9 @@
                     <option>Hyderabad</option>
                     <option>Chennai</option>
                 </select>
-                <label>Area / Landmark</label>
-                <input type="text" id="area" required>
+                <label for="pincode">PIN Code:</label>
+                <input type="text" id="area" name="pincode" maxlength="6" pattern="[1-9][0-9]{5}" inputmode="numeric"
+                    autocomplete="one-time-code" required>
                 <label>Date</label>
                 <input type="date" id="date" required>
                 <label>Time</label>
@@ -75,5 +76,6 @@
     </footer>
     <script type="module" src="found.js"></script>
 </body>
+
 
 </html>
